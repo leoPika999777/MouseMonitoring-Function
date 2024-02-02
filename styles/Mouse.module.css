@@ -35,3 +35,12 @@
   background-color: #0a093b;
   border-radius: 50%;
 }
+
+.hello {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  color: white;
+  background-color: rgb(213, 69, 69); 
+  font-size: 20px;
+}
