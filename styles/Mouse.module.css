@@ -12,6 +12,16 @@
   left: 150px;
   top: 300px;
 }
+.eye1 {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+.eye2{
+  position: absolute;
+  left: 450px;
+  top: 300px;
+}
 
 .eye-white {
   position: absolute;
