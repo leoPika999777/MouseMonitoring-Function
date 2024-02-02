@@ -1,4 +1,9 @@
-
+.body{
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
 .face {
   position: relative;
   width: 600px;
@@ -17,7 +22,9 @@
   position: absolute;
   left: 150px;
   top: 300px;
+  
 }
+
 
 
 .eye-white {
@@ -29,7 +36,7 @@
   background-color: #fafffb;
   border-radius: 50%;
   border: 10px solid rgb(255, 255, 255);
-  z-index: 8;
+  z-index: 3;
 }
 .eye-black {
   position: absolute;
@@ -39,4 +46,26 @@
   height: 50px;
   background-color: #0a093b;
   border-radius: 50%;
+}
+
+
+.hello {
+  position: absolute;
+  left: 500px;
+  top: 520px;
+  color: white;
+  font-size: 20px;
+  z-index: 5;
+}
+
+.helloimg img{
+  width: 300px;
+  position: relative;
+}
+.hellop{
+  color: rgb(6, 6, 6);
+  font-weight: bold;
+  position: absolute;
+  left: 90px;
+  top:50px;
 }
