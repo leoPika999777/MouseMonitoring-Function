@@ -4,9 +4,13 @@
   width: 600px;
   height: 600px;
   border-radius: 50%;
-  background-color: #3ecc6c;
-  border: 1px solid black;
+  /* background-color: #3ecc6c; */
+  /* border: 1px solid black; */
   margin: auto;
+}
+.face img{
+  width: 100%;
+  height: 100%;
 }
 
 .eye {
@@ -18,18 +22,19 @@
 
 .eye-white {
   position: absolute;
-  top: -60px;
-  left: -60px;
-  width: 100px;
-  height: 100px;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
   background-color: #fafffb;
   border-radius: 50%;
-  border: 10px solid black;
+  border: 10px solid rgb(255, 255, 255);
+  z-index: 8;
 }
 .eye-black {
   position: absolute;
   top: -25px;
-  left: 0px;
+  left: -30px;
   width: 50px;
   height: 50px;
   background-color: #0a093b;
